@@ -50,3 +50,52 @@ console.log(carName2);
 console.log(answer1);
 console.log(answer2);
 console.log(answer3);
+
+//números
+var x1 = 34.00;
+var x2 = 34;
+console.log(x1);
+console.log(x2);
+
+console.log(x1+x2);
+
+var y = 123e5; //12300000
+console.log(y);
+var z = 123e-5;//0.00123
+console.log(z);
+
+//arrays son base 0
+var cars =["Ford","Volvo","BMW"];
+console.log(cars[1]);
+
+
+//objetos
+var person = {firstName:"Pepe", lastName:"Argento", age:25, eyeColor: "Blue"};
+
+//template literals (${expresion})
+
+let f = 'hola';
+let b = 'Mundo';
+console.log('Mi primera app '+ f + ' '+b);
+
+let h = `Mi primera app ${f} ${b} con template literals`;
+console.log(h);
+
+//function nombre (){};
+
+function myFunction(p1,p2){
+  return p1*p2;
+};
+
+console.log(myFunction(3,4));
+
+
+var xa = myFunction(4,3);
+console.log(xa);
+
+var xb = myFunction(5,8);
+console.log(xb);
+
+function myFunction (a,b){
+  return a-b;
+}
